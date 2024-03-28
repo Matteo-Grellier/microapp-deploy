@@ -4,7 +4,8 @@ metadata:
   name: order-service
   namespace: default
 spec:
-  type: NodePort
+  type: ClusterIP
+  clusterIP: 10.96.0.20
   selector:
     app: order-service
   ports:
