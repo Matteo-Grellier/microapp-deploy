@@ -12,6 +12,7 @@ spec:
       labels:
         app: database
     spec:
+      hostname: test-mongodb
       containers:
       - name: database
         image: mongo:latest
