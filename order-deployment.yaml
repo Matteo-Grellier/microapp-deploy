@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: matteogrellier/order-service
+        image: matteogrellier/order-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3002

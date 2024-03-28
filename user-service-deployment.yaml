@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: matteogrellier/user-service
+        image: matteogrellier/user-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3001
