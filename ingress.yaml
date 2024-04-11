@@ -14,13 +14,13 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
-                name: order-service-service
+                name: order-service
                 port:
                   number: 3002
           - path: /user-service(/|$)(.*)
             pathType: ImplementationSpecific
             backend:
               service:
-                name: user-service-service
+                name: user-service
                 port:
                   number: 3001
